@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 .env
+
+# git remote add origin git@github.com:sanjivpaul/face_attendance_dashboard.git

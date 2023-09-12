@@ -74,7 +74,7 @@ export default function User() {
       <div className="userTitleContainer">
         <h1 className="userTitle">Edit User</h1>
         <Link to="/newUser">
-          <button className="userAddBtn">Create</button>
+          <button className="userAddBtn" style={{display:"none"}}>Create</button>
         </Link>
       </div>
       <div className="userContainer">
