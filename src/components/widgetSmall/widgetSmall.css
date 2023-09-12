@@ -1,0 +1,62 @@
+.widgetSmall {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.widgetSmallTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.widgetSmallImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.widgetSmallList {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.widgetSmallItem {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.widgetSmallUser {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetSmallUsername {
+  font-weight: 600;
+}
+
+.widgetSmallUserTitle {
+  font-weight: 300;
+}
+
+.widgetSmallButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: gray;
+  cursor: pointer;
+}
+
+.widgetSmallIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+}
